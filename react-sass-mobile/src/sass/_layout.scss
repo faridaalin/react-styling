@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: getColour(color-light-grey);
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+.wrapper {
+  flex: 1 0 auto;
+  padding: 38px 23px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}

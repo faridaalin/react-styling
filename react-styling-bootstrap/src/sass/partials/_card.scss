@@ -1,0 +1,22 @@
+.card-container {
+    .card {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        box-shadow: $shadow;
+        border-radius: $border-radius;
+    }
+    
+    .card-body {
+        padding: 2em 1.5em;
+    }
+    
+    .card-title {
+        color: $color-primary;
+        font-size: 26px;
+    }
+    
+    .card-text {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}

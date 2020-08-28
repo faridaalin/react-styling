@@ -1,0 +1,35 @@
+// custom
+$color-primary: #065CA7;
+$color-bg: #F7F7F7;
+$color-font: #6A6A68;
+$color-dark-grey: #707070;
+$color-white: #FFFFFF;
+
+$shadow: 0 12px 15px #00000017;
+
+
+$weight-light: 300;
+$weight-regular: 400;
+$weight-bold: 700;
+
+
+
+// bootstrap
+$border-radius: 10px;
+
+$theme-colors: 
+  (
+    "primary":    $color-primary,
+    "dark":       $color-primary
+  );
+
+
+@import "~bootstrap/scss/bootstrap";
+@import './partials/layout';
+@import './partials/typography';
+@import './partials/nav';
+@import './partials/card';
+@import './partials/accordion';
+@import './partials/form';
+@import './partials/table';
+@import './partials/tabs';

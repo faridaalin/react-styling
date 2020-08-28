@@ -1,0 +1,15 @@
+.footer {
+    height: 50px;
+    background: getColour(color-dark-grey);
+    color: getColour(color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 22px;
+
+    &__item {
+        font-weight: 100;
+        font-size: 13px;
+        
+    }
+}

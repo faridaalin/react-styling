@@ -1,0 +1,9 @@
+.accordion {
+    box-shadow: $shadow;
+    .card-header {
+        background-color: $color-white;
+    }
+    .card-body {
+        background-color: #F4F4F4;
+    }
+}

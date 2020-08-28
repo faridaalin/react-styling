@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--bd-color-secondary);
+    padding: 35px 30px;
+    margin: 47px 0;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .box {
+        justify-content: space-between;
+    }
+  }
+  

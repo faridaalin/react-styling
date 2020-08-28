@@ -1,0 +1,18 @@
+.tab-content {
+    background: white;
+    height: 100%;
+    padding: 50px 40px 0;
+}
+
+.hide {
+    position: absolute;
+    left: -1000px;
+}
+
+@media (min-width: 768px) {
+    .hide {
+        position: inherit;
+        left: 0;
+    }
+    
+}

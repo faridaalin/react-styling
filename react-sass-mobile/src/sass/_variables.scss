@@ -1,0 +1,11 @@
+$colours: (
+    "color-light-grey": #EBEBEB,
+    "color-dark-grey": #626262,
+    "color-primary-green": #2DAA88,
+    "color-white": #FFFFFF,
+    "color-black": #000000,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour)
+};

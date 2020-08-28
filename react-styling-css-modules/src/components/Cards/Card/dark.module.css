@@ -1,0 +1,8 @@
+.dark {
+    background-color: var(--bd-color-secondary);
+    color: white;
+}
+
+.light {
+    color: white;
+}

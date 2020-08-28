@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ul {
+    composes: nav;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    width: 100%;
+}
+
+.active {
+    color: var(--primary-color);
+}

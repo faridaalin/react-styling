@@ -1,0 +1,29 @@
+.box {
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 16px 24px;
+}
+
+.heading {
+    color: var(--color-font);
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.text {
+    font-size: 16px;
+    padding-bottom: 8px;
+    color: var(--color-font);
+}
+
+@media only screen and (min-width: 768px) {
+    .box {
+      width: 48%;
+      min-height: 198px;
+    }
+  }
+  
+

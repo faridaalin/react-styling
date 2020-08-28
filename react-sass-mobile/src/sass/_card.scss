@@ -1,0 +1,22 @@
+.card-container {
+    padding-top: 22px;
+}
+
+.card {
+    border-radius: 5px;
+    background: getColour(color-white);
+    overflow: hidden;
+
+    &__title {
+        background: getColour(color-primary-green);
+        color: getColour(color-white);
+        padding: 14px 23px;
+
+    }
+
+    &__content {
+        padding: 31px 22px 88px;
+       @extend .paragraph;
+    }
+
+}
