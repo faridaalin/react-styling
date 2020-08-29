@@ -1,25 +1,33 @@
 import React from "react";
 import "./App.css";
+import GlobalStyle from './styles/globalStyles'
 
 import { ThemeProvider } from "styled-components";
-import Button from './components/button/Button';
-import TextInput from './components/form/Input';
+import theme from './styles/theme'
+import Container from './components/layout/Container'
+import PageHeader from './components/headings/PageHeading';
+import Subheading from './components/headings/SubHeading';
+import Form from './components/form/Form';
+import Input from './components/form/Input';
+import Button from './components/button/Button'
 
-const theme = {
-  brandColorPrimary: "lightblue",
-  brandColorSecondary: "green",
-  defaultFont: "Arial, sans-serif, sans",
-  primary: "#b3344b",
-  secondary: "orange",
-}
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="container">
-        <Button variant="primary">Click me</Button>
-        <TextInput placeholder="name" />
-      </div>
+      <GlobalStyle />
+      <Container>
+        <PageHeader>Payment details</PageHeader>
+        <Subheading>Fusce id libero ut orci ornare tempor sit amet at augue.</Subheading>
+        <Form>
+          <Input placeholder="Name on card"/>
+          <Input placeholder="Card number"/>
+          <Input placeholder="Expiry date"/>
+          <Input placeholder="Security number"/>
+          <Button variant="primary">Pay</Button>
+        </Form>
+        <Subheading variant="darker">Fusce id libero ut orci ornare tempor sit amet at augue.</Subheading>
+      </Container>
     </ThemeProvider>
   );
 }

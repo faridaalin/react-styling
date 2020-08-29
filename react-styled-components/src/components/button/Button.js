@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 
 const Button = styled.button`
-    font-size: 2rem;
-    background-color: ${props => (props.variant === "primary") ? props.theme.primary : props.theme.secondary };
+    font-size: 1em;
+    background: ${props => (props.variant === "primary") && props.theme.primary};
     color: white;
     border: none;
-    padding: 16px 32px;
+    width: 100%;
+    height: 72px;
     border-radius: 10px;
 `
 export default Button;
